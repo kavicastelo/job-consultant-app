@@ -18,19 +18,3 @@ jobs:
       - name: Build frontend
         run: |
           npm run build
-  build-backend:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Setup Java
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '17'
-
-      - name: Build backend
-        run: |
-          chmod +x ./mvnw
-          ./mvnw clean package -DskipTests
