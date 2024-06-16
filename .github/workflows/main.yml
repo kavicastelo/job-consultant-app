@@ -14,7 +14,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          git switch frontend
           npm install --force
       - name: Build frontend
         run: |
@@ -33,6 +32,5 @@ jobs:
 
       - name: Build backend
         run: |
-          git switch backend
           chmod +x ./mvnw
           ./mvnw clean package -DskipTests
