@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 @PropertySource("classpath:application.properties")
 public class EnvConfig {
 
-    @Value("${python.exe.path}")
-    public String PYTHON_EXE_PATH;
+    @Value("${env.config}")
+    public String ENV_CONFIG;
 }
