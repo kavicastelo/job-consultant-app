@@ -93,4 +93,12 @@ Remember to wait for a minute after loading the website for optimal data transfe
 
 ---
 
+> [!TIP]
+> Use following documents for more information
+
+[API Documentaion](api-Docs/apiDocumentation.md)
+[Technical Documentation](api-Docs/technicalDocumentation.md)
+[Test Plan](api-Docs/testPlanDocumentation.md)
+[Database Schema](api-Docs/databaseSchema.md)
+
 Feel free to explore and contribute to this educational project! For any questions or issues, contact [Kavindu Kokila](mailto:kavindu.kokila.info@gmail.com?subject=[GitHub]%20JobSeeker%20Project%20Problems).
