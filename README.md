@@ -1,4 +1,4 @@
-# JobSeeker
+# Job Consultant App
 
 JobSeeker is a web application developed as a university assignment. It is designed to facilitate the interaction between job seekers and consultants. The project uses Angular 15 for the frontend and Spring Boot 3 for the backend.
 
